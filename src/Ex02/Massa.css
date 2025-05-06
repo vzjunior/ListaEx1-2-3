@@ -1,0 +1,53 @@
+.massa-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.massa-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.massa-container label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.massa-container input {
+    padding: 8px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.massa-container button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.massa-container button:hover {
+    background-color: #0056b3;
+}
+
+.massa-resultado {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+}
